@@ -1,10 +1,324 @@
-每日衣橱 - WeatherWardrobe 尊重并保护用户隐私。
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>每日衣橱 - 隐私政策 | Daily Wardrobe Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f8f7;
+      --card: #ffffff;
+      --text: #1c1c1e;
+      --secondary: #5f6368;
+      --border: #e4e7e4;
+      --accent: #43a75b;
+      --accent-bg: #e8f5e9;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+        "Noto Sans CJK SC", "Noto Sans CJK TC", "Noto Sans JP", sans-serif;
+      line-height: 1.75;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 40px auto 80px;
+    }
+    .hero, article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: clamp(24px, 5vw, 48px);
+      margin-bottom: 24px;
+    }
+    .hero h1 { margin: 0 0 8px; font-size: clamp(30px, 5vw, 46px); }
+    .hero p { margin: 0; color: var(--secondary); }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
+    nav a {
+      display: inline-block;
+      padding: 8px 14px;
+      color: var(--text);
+      background: var(--accent-bg);
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    article { scroll-margin-top: 20px; }
+    article h2 { margin: 0 0 4px; font-size: 28px; }
+    article h3 { margin: 28px 0 8px; font-size: 20px; }
+    article p, article ul { margin: 8px 0; }
+    article ul { padding-left: 1.4em; }
+    .date { color: var(--secondary); margin-bottom: 24px; }
+    a { color: var(--accent); }
+    .back { display: inline-block; margin-top: 24px; font-size: 14px; }
+    footer {
+      color: var(--secondary);
+      text-align: center;
+      font-size: 14px;
+      padding: 12px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111311;
+        --card: #1b1e1b;
+        --text: #f2f3f2;
+        --secondary: #b4b8b4;
+        --border: #303530;
+        --accent: #78d389;
+        --accent-bg: #223d28;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main id="top">
+    <section class="hero">
+      <h1>每日衣橱 · Privacy Policy</h1>
+      <p>WeatherWardrobe 隐私政策 / Privacy Policy / プライバシーポリシー</p>
+      <nav aria-label="Language">
+        <a href="#zh-cn">简体中文</a>
+        <a href="#zh-tw">繁體中文</a>
+        <a href="#en">English</a>
+        <a href="#ja">日本語</a>
+      </nav>
+    </section>
 
-本 App 不要求用户注册或登录账号。
-本 App 不会收集、上传、出售或共享用户的个人信息。
-用户添加的衣服图片、分类、颜色、品牌、购入时间、价格和穿搭数据主要存储在用户设备本地。
-本 App 会请求相机权限用于拍摄衣服照片，会请求相册权限用于从相册选择衣服照片。
-这些照片仅用于用户在 App 内记录和查看衣柜内容，不会上传到开发者服务器。
+    <article id="zh-cn" lang="zh-CN">
+      <h2>隐私政策（简体中文）</h2>
+      <p class="date">生效日期：2026 年 7 月 23 日　|　最近更新：2026 年 7 月 23 日</p>
 
-如有问题，请联系：
-du.o@live.cn
+      <p>欢迎使用“每日衣橱（WeatherWardrobe）”（以下简称“本 App”）。我们重视您的隐私。本隐私政策说明本 App 如何处理数据，以及您可以如何管理自己的信息。</p>
+
+      <h3>1. 我们是否收集数据</h3>
+      <p>本 App 无需注册或登录，不设用户账户，不运营用于存储用户衣橱数据的服务器。我们不会将您在本 App 中录入的衣服、穿搭、照片、穿着记录或其他内容传输给开发者，也不会收集可用于识别您身份的个人信息。</p>
+      <p>本 App 不包含广告 SDK、第三方分析 SDK或跨 App 跟踪功能，不会出售、出租或用于广告目的分享您的数据。</p>
+
+      <h3>2. 仅保存在设备本地的数据</h3>
+      <p>为了提供衣橱管理功能，本 App 会在您的设备本地保存您主动录入或生成的内容，包括：</p>
+      <ul>
+        <li>衣服照片、分类、季节、颜色、品牌、收藏状态；</li>
+        <li>购入时间、购入价格等衣服信息；</li>
+        <li>穿搭组合、穿搭名称及相关衣服信息；</li>
+        <li>穿搭日历记录、已穿次数和单次穿衣成本；</li>
+        <li>您自定义的颜色、品牌及其他应用设置；</li>
+        <li>衣服的回收箱状态及相关历史记录。</li>
+      </ul>
+      <p>颜色识别、穿着次数和单次穿衣成本等计算均在设备本地完成。上述内容不会由本 App 上传至开发者控制的服务器。</p>
+
+      <h3>3. 相机与照片权限</h3>
+      <p>当您主动拍摄或选择衣服图片时，本 App 可能请求以下系统权限：</p>
+      <ul>
+        <li><strong>相机权限：</strong>用于拍摄衣服照片；</li>
+        <li><strong>照片权限：</strong>用于从系统照片中选择衣服图片。</li>
+      </ul>
+      <p>本 App 只会在您主动使用相关功能时访问相机或照片。您可以随时在 iOS“设置”中修改或撤销权限；撤销后，相应的拍摄或选图功能可能无法使用，但其他不依赖该权限的功能仍可继续使用。</p>
+
+      <h3>4. 数据保存、删除与回收箱</h3>
+      <p>本 App 中的数据会保存在您的设备上，直至您在 App 内删除相关内容、清除 App 数据或卸载本 App。</p>
+      <p>“移入回收箱”仅表示该衣服不再显示于日常衣橱，并不等同于永久删除。历史穿着记录仍会保留。您可以将衣服移出回收箱，或使用 App 提供的永久删除功能删除相关衣服数据。</p>
+      <p>由于本 App 不设用户账户或云端数据库，开发者无法远程读取、恢复或删除您设备上的数据。卸载 App 通常会删除其本地数据，但设备备份及恢复行为由您的 iOS、iCloud 和 Apple 账户设置决定。</p>
+
+      <h3>5. 第三方服务、系统服务与输入法</h3>
+      <p>本 App 本身不接入广告、分析或社交平台 SDK。App Store 分发、系统诊断、iCloud 或设备备份等功能由 Apple 提供，并受 Apple 自身的条款和隐私政策约束。</p>
+      <p>如果您使用第三方输入法，输入法可能根据其自身设置请求本地网络或互联网权限。该请求由第三方输入法及 iOS 系统发起，并非本 App 的联网请求；相关数据处理受该输入法提供方的隐私政策约束。</p>
+
+      <h3>6. 数据共享、出售与跟踪</h3>
+      <p>我们不会出售您的个人数据，不会与第三方共享您在本 App 中保存的衣橱内容，也不会使用您的数据在其他公司的 App 或网站中跟踪您。</p>
+
+      <h3>7. 数据安全</h3>
+      <p>本 App 使用 iOS 提供的本地存储机制保存数据。您设备的密码、生物识别、系统安全设置和备份设置也会影响本地数据的安全。请妥善保管您的设备并及时更新操作系统。</p>
+
+      <h3>8. 儿童隐私</h3>
+      <p>本 App 不要求用户提供姓名、联系方式或账户信息，也不会主动收集儿童的个人数据。如果您认为存在与儿童隐私有关的问题，请通过下方电子邮件联系我们。</p>
+
+      <h3>9. 隐私政策的更新</h3>
+      <p>当功能、数据处理方式或适用要求发生变化时，我们可能更新本政策。更新后的版本会发布在本页面，并修改“最近更新”日期。如果未来加入云同步、用户账户、分析、广告或其他会改变数据处理方式的功能，我们会相应更新本政策及 App Store 隐私信息。</p>
+
+      <h3>10. 联系我们</h3>
+      <p>如果您对本隐私政策或本 App 的数据处理方式有疑问，请发送电子邮件至：<a href="mailto:du.o@live.cn">du.o@live.cn</a></p>
+      <a class="back" href="#top">返回语言选择 ↑</a>
+    </article>
+
+    <article id="zh-tw" lang="zh-Hant">
+      <h2>隱私權政策（繁體中文）</h2>
+      <p class="date">生效日期：2026 年 7 月 23 日　|　最近更新：2026 年 7 月 23 日</p>
+
+      <p>歡迎使用「每日衣櫥（WeatherWardrobe）」（以下簡稱「本 App」）。我們重視您的隱私。本隱私權政策說明本 App 如何處理資料，以及您可以如何管理自己的資訊。</p>
+
+      <h3>1. 我們是否蒐集資料</h3>
+      <p>本 App 無需註冊或登入，不設使用者帳戶，也不營運用於儲存使用者衣櫥資料的伺服器。我們不會將您在本 App 中輸入的衣服、穿搭、照片、穿著紀錄或其他內容傳送給開發者，也不會蒐集可用於識別您身分的個人資訊。</p>
+      <p>本 App 不包含廣告 SDK、第三方分析 SDK 或跨 App 追蹤功能，不會出售、出租或基於廣告目的分享您的資料。</p>
+
+      <h3>2. 僅儲存在裝置本機的資料</h3>
+      <p>為了提供衣櫥管理功能，本 App 會在您的裝置本機儲存您主動輸入或產生的內容，包括：</p>
+      <ul>
+        <li>衣服照片、分類、季節、顏色、品牌、收藏狀態；</li>
+        <li>購入時間、購入價格等衣服資訊；</li>
+        <li>穿搭組合、穿搭名稱及相關衣服資訊；</li>
+        <li>穿搭日曆紀錄、已穿次數和單次穿衣成本；</li>
+        <li>您自訂的顏色、品牌及其他 App 設定；</li>
+        <li>衣服的回收桶狀態及相關歷史紀錄。</li>
+      </ul>
+      <p>顏色辨識、穿著次數和單次穿衣成本等運算均在裝置本機完成。上述內容不會由本 App 上傳至開發者控制的伺服器。</p>
+
+      <h3>3. 相機與照片權限</h3>
+      <p>當您主動拍攝或選擇衣服圖片時，本 App 可能要求以下系統權限：</p>
+      <ul>
+        <li><strong>相機權限：</strong>用於拍攝衣服照片；</li>
+        <li><strong>照片權限：</strong>用於從系統照片中選擇衣服圖片。</li>
+      </ul>
+      <p>本 App 僅會在您主動使用相關功能時存取相機或照片。您可以隨時在 iOS「設定」中修改或撤銷權限；撤銷後，對應的拍攝或選圖功能可能無法使用，但其他不依賴該權限的功能仍可繼續使用。</p>
+
+      <h3>4. 資料保存、刪除與回收桶</h3>
+      <p>本 App 中的資料會保存在您的裝置上，直到您在 App 內刪除相關內容、清除 App 資料或解除安裝本 App。</p>
+      <p>「移入回收桶」僅表示該衣服不再顯示於日常衣櫥，並不等同於永久刪除。歷史穿著紀錄仍會保留。您可以將衣服移出回收桶，或使用 App 提供的永久刪除功能刪除相關衣服資料。</p>
+      <p>由於本 App 不設使用者帳戶或雲端資料庫，開發者無法遠端讀取、復原或刪除您裝置上的資料。解除安裝 App 通常會刪除其本機資料，但裝置備份及還原行為由您的 iOS、iCloud 和 Apple 帳戶設定決定。</p>
+
+      <h3>5. 第三方服務、系統服務與輸入法</h3>
+      <p>本 App 本身未接入廣告、分析或社群平台 SDK。App Store 發行、系統診斷、iCloud 或裝置備份等功能由 Apple 提供，並受 Apple 自身的條款和隱私權政策約束。</p>
+      <p>如果您使用第三方輸入法，輸入法可能依其自身設定要求區域網路或網際網路權限。該請求由第三方輸入法及 iOS 系統發起，並非本 App 的連線請求；相關資料處理受該輸入法提供者的隱私權政策約束。</p>
+
+      <h3>6. 資料分享、出售與追蹤</h3>
+      <p>我們不會出售您的個人資料，不會與第三方分享您在本 App 中保存的衣櫥內容，也不會使用您的資料在其他公司的 App 或網站中追蹤您。</p>
+
+      <h3>7. 資料安全</h3>
+      <p>本 App 使用 iOS 提供的本機儲存機制保存資料。您裝置的密碼、生物辨識、系統安全設定和備份設定也會影響本機資料的安全。請妥善保管您的裝置並及時更新作業系統。</p>
+
+      <h3>8. 兒童隱私</h3>
+      <p>本 App 不要求使用者提供姓名、聯絡方式或帳戶資訊，也不會主動蒐集兒童的個人資料。如果您認為存在與兒童隱私有關的問題，請透過下方電子郵件與我們聯絡。</p>
+
+      <h3>9. 隱私權政策的更新</h3>
+      <p>當功能、資料處理方式或適用要求發生變化時，我們可能更新本政策。更新後的版本會發布在本頁面，並修改「最近更新」日期。如果未來加入雲端同步、使用者帳戶、分析、廣告或其他會改變資料處理方式的功能，我們會相應更新本政策及 App Store 隱私資訊。</p>
+
+      <h3>10. 聯絡我們</h3>
+      <p>如果您對本隱私權政策或本 App 的資料處理方式有疑問，請寄送電子郵件至：<a href="mailto:du.o@live.cn">du.o@live.cn</a></p>
+      <a class="back" href="#top">返回語言選擇 ↑</a>
+    </article>
+
+    <article id="en" lang="en">
+      <h2>Privacy Policy (English)</h2>
+      <p class="date">Effective date: July 23, 2026 | Last updated: July 23, 2026</p>
+
+      <p>Welcome to Daily Wardrobe (WeatherWardrobe) (the “App”). We respect your privacy. This Privacy Policy explains how the App handles data and how you can manage your information.</p>
+
+      <h3>1. Whether We Collect Data</h3>
+      <p>The App does not require registration or sign-in, does not create user accounts, and does not operate a server that stores your wardrobe data. Clothes, outfits, photos, wear history, and other content you enter in the App are not transmitted to the developer. We do not collect personal information that identifies you.</p>
+      <p>The App does not include advertising SDKs, third-party analytics SDKs, or cross-app tracking. We do not sell, rent, or share your data for advertising purposes.</p>
+
+      <h3>2. Data Stored Only on Your Device</h3>
+      <p>To provide wardrobe management features, the App stores content that you choose to enter or create locally on your device, including:</p>
+      <ul>
+        <li>Clothing photos, categories, seasons, colors, brands, and favorite status;</li>
+        <li>Purchase dates, purchase prices, and other clothing details;</li>
+        <li>Outfit combinations, outfit names, and related clothing information;</li>
+        <li>Wear calendar entries, wear counts, and cost-per-wear calculations;</li>
+        <li>Custom colors, brands, and other App settings; and</li>
+        <li>Recycle Bin status and related historical records.</li>
+      </ul>
+      <p>Color recognition, wear counts, and cost-per-wear calculations are processed on your device. The App does not upload this content to a server controlled by the developer.</p>
+
+      <h3>3. Camera and Photo Permissions</h3>
+      <p>When you choose to take or select a clothing photo, the App may request the following system permissions:</p>
+      <ul>
+        <li><strong>Camera:</strong> used to take clothing photos;</li>
+        <li><strong>Photos:</strong> used to select clothing images from your system photo library.</li>
+      </ul>
+      <p>The App accesses the camera or photos only when you actively use the relevant feature. You can change or revoke these permissions at any time in iOS Settings. If you revoke a permission, the related camera or photo-selection feature may no longer work, while other features that do not require that permission will remain available.</p>
+
+      <h3>4. Data Retention, Deletion, and the Recycle Bin</h3>
+      <p>Your App data remains on your device until you delete the relevant content in the App, clear the App’s data, or uninstall the App.</p>
+      <p>Moving an item to the Recycle Bin only hides it from your active wardrobe and is not permanent deletion. Historical wear records remain available. You may restore an item from the Recycle Bin or use the App’s permanent deletion function to remove the related clothing data.</p>
+      <p>Because the App has no user accounts or cloud database, the developer cannot remotely access, restore, or delete data stored on your device. Uninstalling the App will generally remove its local data, but device backup and restoration are governed by your iOS, iCloud, and Apple Account settings.</p>
+
+      <h3>5. Third-Party Services, System Services, and Keyboards</h3>
+      <p>The App does not integrate advertising, analytics, or social-platform SDKs. App Store distribution, system diagnostics, iCloud, and device backup services are provided by Apple and are governed by Apple’s own terms and privacy policies.</p>
+      <p>If you use a third-party keyboard, that keyboard may request local network or internet access according to its own settings. Such a request is made by the third-party keyboard and iOS, not by the App. Any related data handling is governed by the keyboard provider’s privacy policy.</p>
+
+      <h3>6. Data Sharing, Sale, and Tracking</h3>
+      <p>We do not sell your personal data, share wardrobe content stored in the App with third parties, or use your data to track you across apps or websites owned by other companies.</p>
+
+      <h3>7. Data Security</h3>
+      <p>The App uses local storage mechanisms provided by iOS. Your device passcode, biometric authentication, system security settings, and backup settings also affect the security of local data. Please keep your device secure and your operating system up to date.</p>
+
+      <h3>8. Children’s Privacy</h3>
+      <p>The App does not ask users to provide names, contact details, or account information, and does not knowingly collect children’s personal data. If you believe there is a concern involving a child’s privacy, please contact us at the email address below.</p>
+
+      <h3>9. Changes to This Privacy Policy</h3>
+      <p>We may update this Policy when App features, data practices, or applicable requirements change. The revised version will be posted on this page with an updated “Last updated” date. If we add cloud sync, user accounts, analytics, advertising, or other features that change how data is handled, we will update this Policy and the App Store privacy information accordingly.</p>
+
+      <h3>10. Contact Us</h3>
+      <p>If you have questions about this Privacy Policy or the App’s data practices, contact us at: <a href="mailto:du.o@live.cn">du.o@live.cn</a></p>
+      <a class="back" href="#top">Back to language selection ↑</a>
+    </article>
+
+    <article id="ja" lang="ja">
+      <h2>プライバシーポリシー（日本語）</h2>
+      <p class="date">施行日：2026年7月23日　|　最終更新日：2026年7月23日</p>
+
+      <p>「毎日のワードローブ（WeatherWardrobe）」（以下「本アプリ」）をご利用いただきありがとうございます。私たちはお客様のプライバシーを尊重します。本プライバシーポリシーでは、本アプリにおけるデータの取り扱いと、お客様がご自身の情報を管理する方法について説明します。</p>
+
+      <h3>1. データの収集について</h3>
+      <p>本アプリは登録やログインを必要とせず、ユーザーアカウントを作成しません。また、ワードローブデータを保存するためのサーバーを運用していません。本アプリに登録した衣服、コーディネート、写真、着用履歴、その他のコンテンツが開発者に送信されることはなく、お客様を特定できる個人情報を収集することもありません。</p>
+      <p>本アプリには、広告 SDK、第三者の解析 SDK、アプリをまたいだトラッキング機能は含まれていません。データを販売、貸与、または広告目的で共有することもありません。</p>
+
+      <h3>2. 端末内のみに保存されるデータ</h3>
+      <p>ワードローブ管理機能を提供するため、本アプリはお客様が入力または作成した以下の情報を端末内に保存します。</p>
+      <ul>
+        <li>衣服の写真、カテゴリー、季節、色、ブランド、お気に入り状態</li>
+        <li>購入日、購入価格などの衣服情報</li>
+        <li>コーディネートの組み合わせ、名称、関連する衣服情報</li>
+        <li>着用カレンダーの記録、着用回数、1回あたりの着用コスト</li>
+        <li>カスタムの色、ブランド、その他のアプリ設定</li>
+        <li>衣服のごみ箱状態と関連する履歴</li>
+      </ul>
+      <p>色の認識、着用回数、1回あたりの着用コストなどの処理は、すべて端末上で行われます。これらのコンテンツが、本アプリから開発者の管理するサーバーへアップロードされることはありません。</p>
+
+      <h3>3. カメラと写真へのアクセス権限</h3>
+      <p>衣服の写真を撮影または選択する際、本アプリは以下のシステム権限を求める場合があります。</p>
+      <ul>
+        <li><strong>カメラ：</strong>衣服の写真を撮影するために使用します。</li>
+        <li><strong>写真：</strong>システムの写真ライブラリから衣服の画像を選択するために使用します。</li>
+      </ul>
+      <p>本アプリがカメラまたは写真にアクセスするのは、お客様が該当機能を操作した場合のみです。権限は iOS の「設定」からいつでも変更または取り消せます。権限を取り消すと、関連する撮影または画像選択機能が使用できなくなる場合がありますが、その権限を必要としない機能は引き続き利用できます。</p>
+
+      <h3>4. データの保存、削除、ごみ箱</h3>
+      <p>本アプリのデータは、お客様がアプリ内で該当コンテンツを削除する、本アプリのデータを消去する、または本アプリをアンインストールするまで端末上に保存されます。</p>
+      <p>「ごみ箱に移動」は、衣服を通常のワードローブに表示しない状態にする機能であり、完全な削除ではありません。過去の着用記録は保持されます。衣服をごみ箱から戻すか、本アプリの完全削除機能を使用して関連する衣服データを削除できます。</p>
+      <p>本アプリにはユーザーアカウントやクラウドデータベースがないため、開発者がお客様の端末内のデータを遠隔で閲覧、復元、または削除することはできません。本アプリをアンインストールすると通常はローカルデータも削除されますが、端末のバックアップと復元は、お客様の iOS、iCloud、および Apple Account の設定に従います。</p>
+
+      <h3>5. 第三者サービス、システムサービス、キーボード</h3>
+      <p>本アプリには、広告、解析、ソーシャルプラットフォームの SDK は組み込まれていません。App Store での配信、システム診断、iCloud、端末バックアップなどのサービスは Apple が提供し、Apple の利用規約およびプライバシーポリシーが適用されます。</p>
+      <p>第三者のキーボードを使用している場合、そのキーボードが独自の設定に基づき、ローカルネットワークまたはインターネットへのアクセスを求めることがあります。この要求は第三者のキーボードおよび iOS によるものであり、本アプリによる通信要求ではありません。関連するデータの取り扱いには、当該キーボード提供者のプライバシーポリシーが適用されます。</p>
+
+      <h3>6. データの共有、販売、トラッキング</h3>
+      <p>私たちは個人データを販売せず、本アプリに保存されたワードローブのコンテンツを第三者と共有しません。また、他社のアプリやウェブサイトをまたいでお客様を追跡するためにデータを使用することもありません。</p>
+
+      <h3>7. データセキュリティ</h3>
+      <p>本アプリは iOS が提供するローカルストレージ機能を使用します。端末のパスコード、生体認証、システムのセキュリティ設定、バックアップ設定もローカルデータの安全性に影響します。端末を適切に管理し、OS を最新の状態に保ってください。</p>
+
+      <h3>8. 子どものプライバシー</h3>
+      <p>本アプリは氏名、連絡先、アカウント情報の提供を求めず、子どもの個人データを意図的に収集しません。子どものプライバシーに関する懸念がある場合は、下記のメールアドレスまでご連絡ください。</p>
+
+      <h3>9. 本ポリシーの変更</h3>
+      <p>本アプリの機能、データの取り扱い、または適用される要件に変更があった場合、本ポリシーを更新することがあります。改定版は「最終更新日」を変更したうえで本ページに掲載します。今後、クラウド同期、ユーザーアカウント、解析、広告など、データの取り扱いを変更する機能を追加する場合は、本ポリシーおよび App Store のプライバシー情報を適切に更新します。</p>
+
+      <h3>10. お問い合わせ</h3>
+      <p>本プライバシーポリシーまたは本アプリのデータ取り扱いに関するご質問は、以下のメールアドレスまでお問い合わせください：<a href="mailto:du.o@live.cn">du.o@live.cn</a></p>
+      <a class="back" href="#top">言語選択に戻る ↑</a>
+    </article>
+
+    <footer>© 2026 WeatherWardrobe</footer>
+  </main>
+</body>
+</html>
